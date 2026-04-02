@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Вело-в-кайф</title>
+	 <meta charset="utf-8">
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" type="text/css" href="C:\Users\oem424\Desktop\lu.css">
+</head>
+
+
+<body>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand -->
+  <a class="navbar-brand" href='#'><img src="C:\Users\oem424\Desktop\bike cool small.png" id='logo'></a>
+
+  <!-- Links -->
+  <ul class="navbar-nav">
+  
+    <li class="nav-item">
+      <a class="nav-link" href="https://ru.wikipedia.org/wiki/%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F_%D0%B2%D0%B5%D0%BB%D0%BE%D1%81%D0%B8%D0%BF%D0%B5%D0%B4%D0%B0?ysclid=mn31bdv90111599576">история велосипеда</a>
+    </li>
+      <li class="nav-item">
+      <a class="nav-link" href="https://vk.com/topic-167177364_39029035?ysclid=mn31c1mnqg287287942">литература</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://yandex.ru/maps/194/saratov/category/bicycle_shop/184107325/?ysclid=mn31avomj4960674689">веломагазины Саратов</a>
+    </li>
+
+    <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+       контакты
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="https://vk.com/luvelo?ysclid=mn318lg31q633401429">Сообщество "Велос"</a>
+        <a class="dropdown-item" href="https://yandex.ru/maps/194/saratov/category/bike_rental/9933541986/?ysclid=mn319e70ty939929330">аренда велосипедов </a>
+        <a class="dropdown-item" href="https://vk.com/lushechk?ysclid=mn319s6h8w990897000">связаться с Лу</a>
+      </div>
+    </li>
+  </ul>
+    <form class="form-inline" action="/action_page.php">
+    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+    <button class="btn btn-info" type="submit">Поиск по сайту</button>
+  </form>
+</nav>
+
+
+<div class="shapka">gghfgh </div>
+<div class="jumbotron text-center">
+  <h1>Саратов в ритме велосипеда:<p>Наслаждайся поездкой!</p></h1>
+  <p>Всё необходимое для приятной поездки - тут!</p>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4" id="midle">
+      <button class="btn-info"><h3>Карта</h3></button>
+      <p>Посмотреть расположение маршрута рядом с домом, посчитать растояние в метрах или найти ближайшую приятную локацию - можно прямо здесь!</p>
+    </div>
+    <div class="col-sm-4">
+      <button class="btn-info"><h3>Маршруты</h3></button>
+      <p>Найти лёгкий, сложный, интересный, стандартный и любой другой подходящий Вам маршрут!</p>
+    </div>
+    <div class="col-sm-4">
+      <button class="btn-info"><h3>Препятствия</h3></button>
+      <p>Узнать заранее о всех препятствиях, сложностях или преимуществах, которые встретятся на пути</p>
+    </div>
+  </div>
+</div>
+
+<div class="jumbotron text-center map" id="miid"><iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa927d84a31999d1d1ceb29a99fc1b14ab9fc5d6294a18327da3709a6f397592b&amp;source=constructor" width="1246" height="698" frameborder="0"></iframe>
+</div>
+
+<div class="jumbotron text-center">
+  <h1>Тест: какой маршрут вам подходит? <p>Давайте подберём тот, что подойдёт именно вам! </p></h1>
+  <h3><p>Выберите свой уровень:</p></h3>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <button class="button" id="nov"><a href=""><h3 >новичок</h3></a></button>
+      <p>Иногда выезжаете на лёгкие маршруты и используете велосипед для перемещения на короткие расстояния. Велопрогулка по вечернему городу - ваша страсть! </p>
+    </div>
+    <div class="col-sm-4">
+      <button class="button"  id="lub"><a href=""><h3 >любитель</h3></a></button>
+      <p>Велосипед ваш друг каждый тёплый сезон, а зимует он обычно в гараже) Покататься с друзьями приятный маршрут - это ваш вариант!</p>
+    </div>
+    <div class="col-sm-4">
+      <button class="button" id="pro"><a href=""><h3>продвинутый</h3></a></button>
+      <p>Уже долгие годы вы регулярно катаетесь на любимом велосипеде. Покупаете проф. оборудование и выезжаете на самые сложные маршруты</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+</body>
+</html>
