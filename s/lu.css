@@ -21,7 +21,8 @@ body{background-color: bdd5ea}
   height: 200px;
   position: relative;
   overflow: hidden;
-  margin-top: 40px;
+  margin-top: 40px; 
+  background: linear-gradient(#1e293b, #334155);
 }
 
 .bike {
@@ -44,3 +45,14 @@ body{background-color: bdd5ea}
 .section {
   padding: 80px 20px;
   text-align: center;}
+  
+.front { right: 0; }
+.back { left: 0; }
+
+@keyframes ride {
+  0% { left: -150px; }
+  100% { left: 100%; }}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }}
