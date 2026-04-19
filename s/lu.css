@@ -9,7 +9,7 @@ body{background-color: bdd5ea}
 .shapka{ height: 13em; color:#006d77; background-color: #006d77}
 .jumbotron{background-color: #83c5be; color: white; font-family: }
 #midle{border-radius: 10%}
-.btn-info{border-radius: 3em}
+.btn-info{border-radius: 3em; padding: 2px}
 #logo{border-radius: 5%;}
 #poisk{margin-left: 4em }
 
